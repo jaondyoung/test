@@ -17,7 +17,7 @@ var server = http.createServer(function(request,response){
 			response.end();
 			break;
 	}
-});
+});//修改代码
 
 //启动服务
 server.listen(8080,function(error){
